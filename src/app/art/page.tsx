@@ -37,13 +37,20 @@ export default function ArtPage() {
                     </p>
 
                     <div className="flex justify-center mt-20">
-                        <Image
-                            src="/images/art/sketchbook.jpg"
-                            alt="sketchbook"
-                            width={600}
-                            height={700}
-                            className="object-contain"
-                        />
+                        <Link href="/art/catalog" className="block  
+                                                             drop-shadow-none 
+                                                             hover:drop-shadow-xl/25  
+                                                             transition         
+                                                             duration-200">
+                            <Image
+                                src="/images/art/sketchbook.jpg"
+                                alt="sketchbook"
+                                width={600}
+                                height={700}
+                                className="object-contain"
+                            />
+                        </Link>
+                        
                     </div>
                 </section>
             </div>
