@@ -3,7 +3,7 @@ import "@/styles/globals.css";
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: "Claudia Studio",
+  title: "beibei studio",
   description: "Journal of fashion, art, tech & sports",
 };
 
@@ -19,14 +19,14 @@ export default function RootLayout({
         {/* -- Nav Bar -- */}
         <header className="flex justify-between gap-8 mt-2 pt-8 px-8">
           <div className="text-xl italic lowercase leading-7">
-            claudia<br />studio
+            beibei<br />studio
           </div>
 
           <nav className="flex space-x-20 text-lg italic lowercase">
-            {['about', 'fashion', 'art', 'tech', 'sports'].map((section) => (
+            {['home', 'fashion', 'art', 'tech', 'sports'].map((section) => (
               <Link
                 key={section}
-                href={section === 'about' ? '/' : `/${section}`}
+                href={section === 'home' ? '/' : `/${section}`}
                 className="hover:underline"
               >
                 {section}

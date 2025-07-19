@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { AnimatedCarousel } from "../components/AnimatedCarousel";
 
-export default function AboutPage() {
+export default function HomePage() {
   return (
     <>
     <div className="pb-40">
@@ -31,7 +31,7 @@ export default function AboutPage() {
 
           <div className="text-right mt-10">
             <h1 className="text-title leading-35">
-                Claudia<br />Studio
+                Beibei<br />Studio
             </h1>
           </div>
        
@@ -48,7 +48,7 @@ export default function AboutPage() {
           />
           {/* Welcome Text */}
           <p className="text-right italic lowercase text-xl max-w-1/2 leading-8">
-              hello~ welcome to claudia studio here is where i 
+              hello~ welcome to beibei studio here is where i 
               record my thoughts and reflections on different interest 
               and topics like sports and fashions! enjoy and explore
           </p>
