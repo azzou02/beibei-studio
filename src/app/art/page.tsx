@@ -23,12 +23,12 @@ export default function ArtPage() {
             <div className="flex justify-start">
                 <section className="grid grid-rows-2 gap-2 items-center">
                     <div className="text-left">
-                        <h1 className="text-title leading-none">
+                        <h1 className="text-title leading-none -mt-14">
                             Art
                         </h1>
                     </div>
                     
-                    <p className="text-lg italic leading-9 pr-8">
+                    <p className="text-lg italic leading-9 pr-8 -mt-2">
                         i’ve been actively involved in this subject since primary 
                         school (doodling) and started learning traditionally in 
                         high school (with oil paint). i will admit i still have a 
