@@ -9,7 +9,6 @@ import type { Slide } from './data';
 import { paintingSlides, posterSlides, logoSlides, 
          sketchSlides, cellpressSlides, } from './data';
 
-
 const allSlides: Record<string, Slide[]> = {
   paintings: paintingSlides,
   posters: posterSlides,

@@ -126,23 +126,28 @@ export const paintingSlides: Slide[] = [
   
 export const posterSlides: Slide[] = [
     {
-        title: "Lunar New Year",
-        img: "/images/art/catalog/poster-full-1.jpg",
-        text: `poster made for AASA lunar new year festival`.trim(),
+        title: "Cloud Workshop",
+        img: "/images/art/catalog/poster-full-1.png",
+        text: `poster made for Vandyhacks workshop`.trim(),
     },
     {
-        title: "Developer Expo",
-        img: "/images/art/catalog/poster-full-2.jpg",
-        text: ``.trim(),
+        title: "Race Tournament",
+        img: "/images/art/catalog/poster-full-2.png",
+        text: `poster made for Vandyhacks event`.trim(),
     },
     {
-        title: "Race test",
+        title: "Poster Reinterpretation",
         img: "/images/art/catalog/poster-full-3.jpg",
-        text: ``.trim(),
+        text: `Reinterpretation of a poster from the great ideas of western man`.trim(),
     },
     {
-        title: "on cloud",
+        title: "Lunar New Year Festival",
         img: "/images/art/catalog/poster-full-4.jpg",
+        text: `Promotional poster made for AASA's Lunar new year festival`.trim(),
+    },
+    {
+        title: "Google Developer Group",
+        img: "/images/art/catalog/poster-full-5.png",
         text: ``.trim(),
     },
 ];
@@ -155,7 +160,7 @@ export const logoSlides: Slide[] = [
     },
     {
         title: "Vandyhacks logo",
-        img: "/images/art/catalog/logo-full-1.jpg",
+        img: "/images/art/catalog/logo-full-1.png",
         text: ` This logo was designed for my school’s annual hackathon, VandyHacks, 
                 with a theme centered around racing. The logo is intentionally designed 
                 to resemble a race track, with connected, flowing lines that guide the 
@@ -166,7 +171,7 @@ export const logoSlides: Slide[] = [
     },
     {
         title: "Vandyhacks stickers",
-        img: "/images/art/catalog/stickers-full-2.jpg",
+        img: "/images/art/catalog/sticker-full-2.png",
         text: `This is the sticker sheet for VandyHacks. I incorporated various 
                racing-themed elements, including race cars, helmets, and checkered 
                flags, while ensuring that our mascot, the duck, was featured. The 
@@ -185,12 +190,12 @@ export const sketchSlides: Slide[] = [
     },
     {
         title: "Omen",
-        img: "/images/art/catalog/sketch-full-2.jpg",
+        img: "/images/art/catalog/sketch-full-2.png",
         text: `Omen is a pencil sketch of a bull skull.`.trim(),
     },
     {
         title: "Paper",
-        img: "/images/art/catalog/sketch-full-3.jpg",
+        img: "/images/art/catalog/sketch-full-3.png",
         text: `Paper is one of my first sketches where I practiced discerning 
                shadow, light and texture. The values are more grayscale compare 
                to the previous two sketches.`.trim(),
@@ -199,23 +204,19 @@ export const sketchSlides: Slide[] = [
 
 export const cellpressSlides: Slide[] = [
     {
-        title: "To be or not to be",
-        img: "/images/art/catalog/sketch-full-1.jpg",
-        text: `To be or not to be is a series of pencil sketched skulls to serve 
-               as practice and get to known the anatomical structure of human head 
-               to help me gauge better understanding for my portraits.`.trim(),
+        title: "Brain chemistry",
+        img: "/images/art/catalog/cellpress-full-1.png",
+        text: `help me gauge better understanding for my portraits.`.trim(),
     },
     {
-        title: "Omen",
-        img: "/images/art/catalog/sketch-full-2.jpg",
+        title: "Plant Bio-attack",
+        img: "/images/art/catalog/cellpress-full-2.png",
         text: `Omen is a pencil sketch of a bull skull.`.trim(),
     },
     {
-        title: "Paper",
-        img: "/images/art/catalog/sketch-full-3.jpg",
-        text: `Paper is one of my first sketches where I practiced discerning 
-               shadow, light and texture. The values are more grayscale compare 
-               to the previous two sketches.`.trim(),
+        title: "Protein Factory",
+        img: "/images/art/catalog/cellpress-full-3.png",
+        text: `he previous two sketches.`.trim(),
     },
 ];
 
